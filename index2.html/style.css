@@ -1,0 +1,88 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: -1%;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgba(146, 138, 138, 0.527);
+}
+.navbar li{
+    float: left;
+}
+.nop{
+    font-size: 25px;
+    padding-top: 100px;
+    
+}
+.meant{
+    font-size: 100px;
+}
+.set{
+    padding-left: 90px;
+    color: white;
+    
+}
+.smeat p{
+    border: 2px solid;
+    border-style: outset;
+    padding: 20px;
+    width: 500px;
+}
+.smeat{
+    margin-left: 350px;
+}
+.smeat p:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.make{
+    font-size: 50px;
+}
+.make:hover{
+    color: bisque;
+}
+.seat input{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.seat label{
+    font-size: 20px;
+    color: white;
+}
+.beat{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 30px;
+    margin-top: 10px;
+    border-color: none;
+    border-style: none;
+}
+.beat:hover{
+    background-color: black;
+    
+}
+.spill{
+    border: 2px solid;
+    width: 300px;
+    padding: 30px;
+    margin-left: 450px;
+    margin-top: 200px;
+    border-style: outset;
+}

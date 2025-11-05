@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        body{
+            background-image: url(seat.jpg);
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="spill">
+        <form class="seat" action="">
+            <label for="Name">Name</label> <br>
+            <input type="text" placeholder="enter your name" required> <br>
+            <label for="tel">Phone no:</label> <br>
+            <input type="tel" placeholder="0801-2435-3678" maxlength="12" minlength="11" required> <br>
+            <label for="Gmail">Gmail</label> <br>
+            <input type="Gmail" placeholder="enter your gmail" pattern=".+@gmail.com" required> <br>
+
+             <label for="password">Password</label> <br>
+            <input type="password" minlength="6" maxlength="10" required> <br>
+           
+            <input type="checkbox" name="smile"> 
+             <label for="checkbox"> Remember me</label> <br>
+           <button class="beat">Log in</button>
+        </form>
+        
+    </div>
+</body>
+</html>
